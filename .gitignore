@@ -3,5 +3,5 @@ frontend/dist/
 output/
 *.exe
 bun.lockb
-.claude/
-*.md
+.claude/*
+!.claude/skills/
