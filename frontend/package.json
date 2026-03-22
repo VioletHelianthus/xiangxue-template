@@ -1,0 +1,23 @@
+{
+  "name": "my-game-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "render": "bun scripts/render.js ../pages -o ../output/html",
+    "convert": "bun scripts/convert.js",
+    "build": "bun run render && bun run convert",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.5.0",
+    "@xiangxue/preview": "file:../../xiangxue-core/frontend"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "typescript": "~5.7.0",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
