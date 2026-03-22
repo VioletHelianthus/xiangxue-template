@@ -135,12 +135,7 @@ Game UI project using xiangxue + Cocos2d-x backend.
 - ListView items → separate Vue files
 ```
 
-Copy the generate-game-ui skill from xiangxue-dev if available:
-
-```bash
-mkdir -p .claude/skills
-cp -r ../xiangxue-dev/.claude/skills/generate-game-ui .claude/skills/ 2>/dev/null || true
-```
+The `generate-game-ui` skill is already included in this template at `.claude/skills/generate-game-ui/`. No need to copy.
 
 ### Step 7: Verify
 
